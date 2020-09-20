@@ -16,7 +16,7 @@ def login():
             return redirect(request.args.get('next') or url_for('main.index'))
         flash('Invalid username or Password')
     return render_template('auth/login.html', loginform = form)
-
+.
 @auth.route('/logout')
 @login_required
 def logout():
