@@ -23,6 +23,14 @@ This is an application that allows users to view different one minute pitches,po
 
 -`pip -r install requirements.txt`
 
+-To test the app
+
+ -python3.8 manage.py test
+
+-Running the application
+ -python3.6 manage.py server
+
+
 ## AUTHOR
 Emmanuel John Wanzala
 
