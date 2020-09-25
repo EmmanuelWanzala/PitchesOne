@@ -1,5 +1,5 @@
 <nav class="mb-1 navbar navbar-expand-lg navbar-dark ">
-    <a class="navbar-brand" href="{{url_for('main.index')}}"><strong>Pich-World</strong> </a>
+    <a class="navbar-brand" href="{{url_for('main.index')}}"><strong>PichesOne</strong> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,7 +10,7 @@
                 </li>
                 {% if current_user.is_authenticated %}
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url_for('main.new_pitch')}}">New Pitch</a>
+                    <a class="nav-link" href="{{url_for('main.new_pitch')}}">Wanna Pitch?</a>
                 </li>
                 {% endif %}
             </ul>
